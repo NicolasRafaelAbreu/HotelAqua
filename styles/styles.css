@@ -28,7 +28,7 @@ nav ul li a:hover{
 }
 section:nth-of-type(1) div{
     height: 300px;
-    background-image: url("/img/banner.png");
+    background-image: url("img/banner.png");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
