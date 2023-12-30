@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="js/app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <title>Hotel Aqua</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center aling-center pt-1">
+            <p class="col text-center">Reserva atrevés de WhatsApp</p>
+            <p class="col d-none d-lg-block text-center">¡Cancelacion hasta 24 hs antes gratis!</p>
+            <p class="col d-none d-sm-block text-center">Precios especiales</p>
+        </div>
+    </div>
+    <!-- HEADER -->
+    <div class="container-fluid">
+        <header class="row justify-content-center">
+            <figure class="col-10 col-md-6 my-4">
+                <img src="img/logo.png" alt="Logo del Hotel Aqua." class="img-fluid">
+            </figure>
+            <nav class="col-12 col-md-12 mb-2">
+                <ul class="list-unstyled list-inline text-center">
+                    <li class="list-inline-item mx-xl-2">
+                        <a href="#promociones" class="text-decoration-none p-2 rounded">PROMOCIONES</a>
+                    </li>
+                    <li class="list-inline-item mx-xl-2">
+                        <a href="#habitaciones" class="text-decoration-none p-2 rounded">HABITACIONES</a>
+                    </li>
+                    <li class="list-inline-item mx-xl-2">
+                        <a href="#reservas" class="text-decoration-none p-2 rounded">RESERVAS</a>
+                    </li>
+                    <li class="list-inline-item mx-xl-2">
+                        <a href="#reservas" class="d-none d-md-block text-decoration-none p-2 rounded">UBICACIÓN</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <main class="container-fluid">
+        <!-- BANNER -->
+        <section class="row">
+            <div class="img-fluid"><!--BANNER DEL HOTEL--></div>
+        </section>
+        <!-- PROMOCIONES -->
+        <section id="promociones" class="row justify-content-center aling-center m-4">
+            <h1 class="col-11 text-center">PROMOCIONES</h1>
+            <!-- SUITE SUPERIOR -->
+            <article class="col-10 col-md-5 m-md-1 col-xl-4 m-xl-3 text-center">
+                <h2 class="text-center my-2">Suite Superior</h2>
+                <div id="carouselSuiteSupPromo" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/suiteSupUno.jpg" class="d-block img-fluid rounded" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/suiteSupDos.jpg" class="d-block img-fluid rounded" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/suiteSupTres.jpg" class="d-block img-fluid rounded" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselSuiteSupPromo" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselSuiteSupPromo" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <p class="text-start my-2">Amplia suite con aire acondicionado, TV de pantalla plana por cable, WiFi, caja fuerte y minibar.</p>
+                <p class="text-start"><span class="text-decoration-line-through">U$D 150</span> U$D 138</p>
+                <a href="#reservas" class="text-decoration-none rounded p-2">Reservar</a>
+            </article>
+            <!-- STANDAR -->
+            <article class="col-10 col-md-5 m-md-1 col-xl-4 m-xl-3 text-center">
+                <h2 class="text-center my-2">Estándar</h2>
+                <div id="carouselStdPromo" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/stdUno.jpg" class="d-block img-fluid rounded" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/stdDos.jpg" class="d-block img-fluid rounded" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/stdTres.jpg" class="d-block img-fluid rounded" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselStdPromo" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselStdPromo" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <p class="text-start my-2">Habitación con aire acondicionado, caja fuerte, TV por cable, minibar y Wi-Fi gratuita. Para un máximo de 2 personas.</p>
+                <p class="text-start"><span class="text-decoration-line-through">U$D 65</span> U$D 52</p>
+                <a href="#reservas" class="text-decoration-none rounded p-2">Reservar</a>
+            </article>
+            
+        </section>
+        <hr>
+        <!-- HABITACIONES -->
+        <section id="habitaciones" class="row justify-content-center aling-center m-4">
+            <h1 class="col-11 text-center">HABITACIONES</h1>
+            <!-- SUITE SUPERIOR -->
+            <article class="col-10 col-md-5 col-xl-3 m-3 text-center">
+                <h2 class="text-center my-2">Suite Superior</h2>
+                <div id="carouselSuiteSup" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/suiteSupUno.jpg" class="d-block img-fluid rounded" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/suiteSupDos.jpg" class="d-block img-fluid rounded" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/suiteSupTres.jpg" class="d-block img-fluid rounded" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselSuiteSup" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselSuiteSup" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <p class="text-start my-2">Amplia suite con aire acondicionado, TV de pantalla plana por cable, WiFi, caja fuerte y minibar.</p>
+                <p class="text-start">U$D 150</p>
+                <a href="#reservas" class="text-decoration-none rounded p-2">Reservar</a>
+            </article>
+            <!-- JUNIOR SUITE -->
+            <article class="col-10 col-md-5 col-xl-3 m-3 text-center">
+                <h2 class="text-center my-2">Junior Suite</h2>
+                <div id="carouselJuniorSuite" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/juniorSuiteUno.jpg" class="d-block img-fluid rounded" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/juniorSuiteDos.jpg" class="d-block img-fluid rounded" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/juniorSuiteTres.jpg" class="d-block img-fluid rounded" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselJuniorSuite" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselJuniorSuite" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <p class="text-start my-2">Suite con aire acondicionado, caja fuerte, TV LCD por cable y minibar. Algunas tienen bañera de hidromasaje.</p>
+                <p class="text-start">U$D 130</p>
+                <a href="#reservas" class="text-decoration-none rounded p-2">Reservar</a>
+            </article>
+            <!-- STANDAR -->
+            <article class="col-10 col-md-5 col-xl-3 m-3 text-center">
+                <h2 class="text-center my-2">Estándar</h2>
+                <div id="carouselStd" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/stdUno.jpg" class="d-block img-fluid rounded" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/stdDos.jpg" class="d-block img-fluid rounded" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/stdTres.jpg" class="d-block img-fluid rounded" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselStd" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselStd" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <p class="text-start my-2">Habitación con aire acondicionado, caja fuerte, TV por cable, minibar y Wi-Fi gratuita. Para un máximo de 2 personas.</p>
+                <p class="text-start">U$D 65</p>
+                <a href="#reservas" class="text-decoration-none rounded p-2">Reservar</a>
+            </article>
+            <!-- ECONOMICA -->
+            <article class="col-10 col-md-5 col-xl-3 m-3 text-center">
+                <h2 class="text-center my-2">Económica</h2>
+                <div id="carouselEco" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/ecoUno.jpg" class="d-block img-fluid rounded" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/ecoDos.jpg" class="d-block img-fluid rounded" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/ecoTres.jpg" class="d-block img-fluid rounded" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselEco" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselEco" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <p class="text-start my-2">Habitación con aire acondicionado, caja fuerte, TV por cable y Wi-Fi gratuita. Para un máximo de 2 personas.</p>
+                <p class="text-start">U$D 55</p>
+                <a href="#reservas" class="text-decoration-none rounded p-2">Reservar</a>
+            </article>
+            <!-- FAMILIAR -->
+            <article class="col-10 col-md-5 col-xl-3 m-3 text-center">
+                <h2 class="text-center my-2">Familiar</h2>
+                <div id="carouselFamiliar" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/famUno.jpg" class="d-block img-fluid rounded" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/famDos.jpg" class="d-block img-fluid rounded" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/famTres.jpg" class="d-block img-fluid rounded" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFamiliar" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselFamiliar" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <p class="text-start my-2">Esta habitación familiar tiene baño privado con aire acondicionado, TV con cable, minibar y armario. El alojamiento cuenta con 5 camas.</p>
+                <p class="text-start">U$D 55</p>
+                <a href="#reservas" class="text-decoration-none rounded p-2">Reservar</a>
+            </article>
+            <!-- CUADRUPLE -->
+            <article class="col-10 col-md-5 col-xl-3 m-3 text-center">
+                <h2 class="text-center my-2">Cuádruple Clásica</h2>
+                <div id="carouselCuadruple" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/famUno.jpg" class="d-block img-fluid rounded" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/famDos.jpg" class="d-block img-fluid rounded" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/famTres.jpg" class="d-block img-fluid rounded" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselCuadruple" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselCuadruple" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <p class="text-start my-2">habitación cuádruple dispone de aire acondicionado, TV con cable, minibar, armario, caja fuerte. Cuenta con 3 camas.</p>
+                <p class="text-start">U$D 55</p>
+                <a href="#reservas" class="text-decoration-none rounded p-2">Reservar</a>
+            </article>
+        </section>
+        <hr>
+        <!-- RESERVAS -->
+        <section id="reservas" class="row justify-content-center aling-center m-4">
+            <h1 class="col-11 text-center m-2 m-md-4">Reservar</h1>
+            <form class="col-md-10 col-xl-5 text-center">
+                <label class="text-start mt-3" for="txtNombre: ">Nombre: </label>
+                <input class="p-1 rounded" placeholder="Ej: Mauro" type="text" id="txtNombre">
+                <label class="text-start mt-3" for="txtApellido">Apellido: </label>
+                <input class="p-1 rounded" placeholder="Ej: Romero" type="text" id="txtApellido">
+                <label class="text-start mt-3" for="numeroDeTelefono">Número de telefono: </label>
+                <input class="p-1 rounded" placeholder="Ej: 099 123 456" type="number" id="numeroDeTelefono">
+                <label class="text-start mt-3" for="txtCheck-in">Check-in: </label>
+                <input class="p-1 rounded" type="date" id="txtCheck-in">
+                <label class="text-start mt-3" for="txtCheck-out">Check-out: </label>
+                <input class="p-1 rounded" type="date" id="txtCheck-out">
+                <label class="text-start mt-3" for="txtNumTarjeta">Tipo de habitación: </label>
+                <select class="text-center p-1 rounded" id="txtNumTarjeta">
+                    <option value="Suite Superior">Suite Superior - 2 personas</option>
+                    <option value="Junior Suite">Junior Suite - 2 personas</option>
+                    <option value="Estándar">Estándar - 2 personas</option>
+                    <option value="Económica">Económica - 2 personas</option>
+                    <option value="Familiar">Familiar - 6 personas</option>
+                    <option value="Cuádruple Clásica">Cuádruple Clásica - 4 personas</option>
+                </select>
+                <input class="my-3 p-2 rounded" type="button" id="btnReservar" value="Reservar">
+            </form>
+            <div class="col-12 col-md-11 mb-4 col-xl-5 mt-xl-5 text-center">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16599.075354009612!2d-54.9468887408356!3d-34.95715248622031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9575056dbb1192ed%3A0x89f82d4003c05889!2sHotel%20Aqua!5e0!3m2!1ses!2suy!4v1703890066700!5m2!1ses!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="container-fluid">
+      <div class="row justify-content-center aling-center">
+        <p class="col-12 text-center p-3 mb-0">Sitio realizado por Nicolás Abreu</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
